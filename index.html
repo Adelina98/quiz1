@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+	<title> quiz! </title>
+	
+	
+	<link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+    	html{font-family: 'Nanum Gothic';}
+
+    	*{margin: 0;padding:0;}
+
+    	body {background-image: url(background.png); background-repeat: no-repeat;background-size: cover; }
+    	
+    	li{list-style: none}
+
+    	a{text-decoration: none; color: black;}
+
+    	#main{width: 1024px; margin: 100px auto;}
+
+    	.main-title-box {padding: 50px 0;}
+
+    	.main-title1 {font-size: 30px; text-align: center;padding-bottom: 10px;}
+
+    	.main-title2 {font-size: 22px; text-align: center;}
+
+    	.main-text {font-size: 18px; font-family: 800; color: #17499D;}
+
+    	.main-level {width: 100%; padding: 50px 0; display: flex; justify-content: space-around;}
+
+    	.level {width: 200px; height: 200px; text-align: center; 
+    			line-height: 200px; border-radius: 50%; background: white; border: 1px solid black; position: relative;}
+
+    	.level a {display: block; width: 100%; height: 100%; line-height: 20px; background-color: #95C2E8; color: white; border-radius: 50%; display: flex; align-items : center; justify-content: center; position: absolute; top: 0; left: 0; visibility: hidden;}
+
+    	.level:hover a {visibility: visible;}
+    </style>
+</head>
+<body>
+	<section id="main">
+		<div class="main-title-box">
+			<h1 class="main-title1">알아두면 유용한 한글 맞춤법</h1>
+			<h2 class="main-title2">알쏭달쏭 한글 맞춤법! 함께 공부해요!</h2>
+		</div>
+		<p class="main-text">- 나의 한글 맞춤법 수준 테스트 해보기</p>
+		<ul class="main-level">
+			<li class="level">
+				1단계
+				<a href="index-1.html">맞춤법 빌런은 <br>되지 말아야지!</a>
+			</li>
+			<li class="level">
+				2단계
+				<a href="#">너도 나도<br>헷갈리는 단어들</a>
+			</li>
+			<li class="level">
+				3단계
+				<a href="#">한국인들도 <br>잘 모르는 맞춤법</a>
+			</li>
+		</ul>
+	</section>
+
+</body>
+</html>
